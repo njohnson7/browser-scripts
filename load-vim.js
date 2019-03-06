@@ -1,5 +1,6 @@
-// Enable vimMode in CodeMirror
-// - idea from: https://github.com/thomcom/autovim
+// Enable vimMode (vim keymap/bindings) in CodeMirror editor.
+// Idea from: https://github.com/thomcom/autovim
+// Directions: save as a Chrome snippet, load a page that has CodeMirror editor (eg, Pramp), and run snippet.
 
 const importVimJs = () => {
   const vimScriptElem = document.createElement('script')
